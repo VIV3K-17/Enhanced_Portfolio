@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading1 {
+    background-color: #0057B7;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    text-align: right;
+    text-shadow: 2px 2px #000000;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.heading2 {
+    flex-grow: 1;
+    background-color: #FFD700;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    width: 1200px;
+    padding: 10px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.intro {
+    color: white;
+}
+
+#left {
+    width: 15%;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+    box-shadow: 0 0px 2px hsl(0, 0%, 0%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#left ul li {
+    margin-bottom: 10px;
+}
+
+#left ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+#title {
+    font-size: 2em;
+    margin: 0;
+    padding-top: 10px; 
+}
+
+.content {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.left-nav {
+    transition: color 0.15s;
+}
+
+.left-nav:hover {
+    color: #7f7f7f !important;
+}
+
+.para {
+    padding-left: 190px;
+}
+
+.para2, .hr2{
+    margin-left: 28px;
+}
+
+.para2{
+    margin-top: 40px;
+}
+.para3{
+    text-align: center;
+}
+h3 {
+    margin-left: 190px;
+    display: block;
+}
+
+hr {
+    opacity: 0.1;
+    margin-left: 190px;
+    border: 1px solid #000;
+}
+
+footer {
+    margin-left: 210px;
+}
